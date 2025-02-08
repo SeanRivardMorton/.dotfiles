@@ -1,0 +1,21 @@
+theme="tokyonight_night"
+
+# Comments start with a `#` and are only valid on their own line.
+# Blank lines are ignored!
+
+# keybind=ctrl+z=close_surface
+# keybind=ctrl+d=new_split:right
+
+# Empty values reset the configuration to the default value
+font-family="Operator-caskabold"
+font-size=16
+font-feature=-liga
+font-thicken=true
+
+background-opacity=0.6
+background-blur=40
+title="VS Code"
+shell-integration-features=no-title
+macos-titlebar-proxy-icon=hidden
+
+keybind = global:cmd+grave_accent=toggle_quick_terminal
