@@ -243,6 +243,8 @@ vim.keymap.set({ 'n', 'v' }, '<leader>cl', '<cmd>ChatGPTRun code_readability_ana
 
 vim.keymap.set({ 'n', 'v' }, '<leader>cm', '<cmd>ChatGPTActAs<CR>', { desc = 'Act As' })
 
+vim.keymap.set({ 'n', 'v' }, '<leader>ld', '<cmd>LazyDocker<CR>', { desc = 'Lazy Docker' })
+
 vim.o.tabstop = 2 -- A TAB character looks like 2 spaces
 vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
 vim.o.softtabstop = 2 -- Number of spaces inserted instead of a TAB character
@@ -954,6 +956,8 @@ require('lazy').setup({
           comments = {
             italic = true,
           },
+          sidebars = 'transparent',
+          floats = 'transparent',
         },
         on_colors = function(colors)
           colors.hint = colors.orange
