@@ -169,6 +169,8 @@ vim.opt.scrolloff = 10
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+vim.keymap.set('n', '<C-g>', '<cmd>silent !tmux neww tmux-sessionizer<CR>')
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 -- lua MiniFiles.open()
@@ -796,18 +798,6 @@ require('lazy').setup({
         }
       end,
       formatters_by_ft = {
-        lua = { 'stylua' },
-        -- Conform can also run multiple formatters sequentially
-        python = { 'isort', 'black' },
-
-        -- You can use 'stop_after_first' to run the first available formatter from the list
-        javascript = { 'prettierd', 'prettier', stop_after_first = true },
-        typescript = { { 'prettierd', 'prettier ' } },
-        typescriptreact = { { 'prettierd', 'prettier ' } },
-        javascriptreact = { { 'prettierd', 'prettier ' } },
-        json = { { 'prettierd', 'prettier ' } },
-        html = { { 'prettierd', 'prettier ' } },
-        css = { { 'prettierd', 'prettier ' } },
       },
     },
   },

@@ -14,6 +14,10 @@ return {
     terminal = {},
     gitbrowse = {},
     notifier = {},
+    notify = {},
+    dim = {},
+    scroll = {},
+    input = {},
   },
   keys = {
     {
