@@ -1,7 +1,12 @@
 return {
   'saghen/blink.cmp',
   -- optional: provides snippets for the snippet source
-  dependencies = 'rafamadriz/friendly-snippets',
+  dependencies = {
+    'rafamadriz/friendly-snippets',
+    'L3MON4D3/LuaSnip',
+    version = 'v2.*',
+    'mlaursen/vim-react-snippets'
+  },
 
   -- use a release tag to download pre-built binaries
   version = '*',
@@ -54,6 +59,7 @@ return {
       -- Adjusts spacing to ensure icons are aligned
       nerd_font_variant = 'mono',
     },
+    snippets = { preset = 'luasnip', react = 'vim-react-snippets' },
 
     -- Default list of enabled providers defined so that you can extend it
     -- elsewhere in your config, without redefining it, due to `opts_extend`
