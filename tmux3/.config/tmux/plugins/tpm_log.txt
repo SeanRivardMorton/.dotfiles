@@ -1,0 +1,994 @@
+[2024-11-27 09:28:06.993]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 09:28:07.002]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 09:28:07.315]	 Installing "tmux-cpu"
+[2024-11-27 09:28:07.317]	 Installing "tmux-copycat"
+[2024-11-27 09:28:07.317]	 Installing "tmux-continuum"
+[2024-11-27 09:28:07.317]	 Installing "tmux-resurrect"
+[2024-11-27 09:28:07.318]	 Installing "tmux-pain-control"
+[2024-11-27 09:28:07.321]	 Installing "tmux-sensible"
+[2024-11-27 09:28:07.321]	 Installing "tokyo-night-tmux"
+[2024-11-27 09:28:07.322]	 Installing "tmux.nvim"
+[2024-11-27 09:28:08.040]	   "tmux.nvim" download success
+[2024-11-27 09:28:08.041]	   "tmux-continuum" download success
+[2024-11-27 09:28:08.041]	   "tmux-sensible" download success
+[2024-11-27 09:28:08.071]	   "tmux-cpu" download success
+[2024-11-27 09:28:08.072]	   "tmux-copycat" download success
+[2024-11-27 09:28:08.082]	   "tmux-pain-control" download success
+[2024-11-27 09:28:08.126]	   "tokyo-night-tmux" download success
+[2024-11-27 09:28:10.517]	   "tmux-resurrect" download success
+[2024-11-27 09:28:10.529]	 Done.
+
+[2024-11-27 09:28:14.776]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 09:28:14.786]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 09:28:14.968]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-27 09:28:15.225]	 Updating all plugins!
+[2024-11-27 09:28:15.226]	 
+[2024-11-27 09:28:15.252]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-27 09:28:15.552]	 Removing "tmux-continuum"
+[2024-11-27 09:28:15.558]	   "tmux-continuum" clean success
+[2024-11-27 09:28:15.560]	 Removing "tmux-copycat"
+[2024-11-27 09:28:15.566]	   "tmux-copycat" clean success
+[2024-11-27 09:28:15.568]	 Removing "tmux-cpu"
+[2024-11-27 09:28:15.574]	   "tmux-cpu" clean success
+[2024-11-27 09:28:15.576]	 Removing "tmux-pain-control"
+[2024-11-27 09:28:15.580]	   "tmux-pain-control" clean success
+[2024-11-27 09:28:15.582]	 Removing "tmux-resurrect"
+[2024-11-27 09:28:15.591]	   "tmux-resurrect" clean success
+[2024-11-27 09:28:15.592]	 Removing "tmux-sensible"
+[2024-11-27 09:28:15.596]	   "tmux-sensible" clean success
+[2024-11-27 09:28:15.597]	 Removing "tmux.nvim"
+[2024-11-27 09:28:15.604]	   "tmux.nvim" clean success
+[2024-11-27 09:28:15.605]	 Removing "tokyo-night-tmux"
+[2024-11-27 09:28:15.610]	   "tokyo-night-tmux" clean success
+[2024-11-27 09:28:15.621]	 Done.
+
+[2024-11-27 09:28:23.533]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 09:28:23.542]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 09:28:23.704]	 Installing "tmux-copycat"
+[2024-11-27 09:28:23.705]	 Installing "tmux-cpu"
+[2024-11-27 09:28:23.705]	 Installing "tmux-resurrect"
+[2024-11-27 09:28:23.707]	 Installing "tmux-continuum"
+[2024-11-27 09:28:23.708]	 Installing "tmux-pain-control"
+[2024-11-27 09:28:23.710]	 Installing "tokyo-night-tmux"
+[2024-11-27 09:28:23.710]	 Installing "tmux-sensible"
+[2024-11-27 09:28:23.710]	 Installing "tmux.nvim"
+[2024-11-27 09:28:24.292]	   "tmux-sensible" download success
+[2024-11-27 09:28:24.306]	   "tmux.nvim" download success
+[2024-11-27 09:28:24.336]	   "tmux-continuum" download success
+[2024-11-27 09:28:24.337]	   "tmux-cpu" download success
+[2024-11-27 09:28:24.377]	   "tmux-pain-control" download success
+[2024-11-27 09:28:24.425]	   "tmux-copycat" download success
+[2024-11-27 09:28:24.480]	   "tokyo-night-tmux" download success
+[2024-11-27 09:28:25.587]	   "tmux-resurrect" download success
+[2024-11-27 09:28:25.598]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-27 09:28:26.606]	 Updating all plugins!
+[2024-11-27 09:28:26.606]	 
+[2024-11-27 09:28:26.983]	   "tmux-copycat" update success
+[2024-11-27 09:28:26.984]	     | Already up to date.
+[2024-11-27 09:28:26.988]	   "tmux-cpu" update success
+[2024-11-27 09:28:26.990]	     | Already up to date.
+[2024-11-27 09:28:27.070]	   "tmux-continuum" update success
+[2024-11-27 09:28:27.074]	     | Already up to date.
+[2024-11-27 09:28:27.089]	   "tmux-resurrect" update success
+[2024-11-27 09:28:27.090]	   "tmux-pain-control" update success
+[2024-11-27 09:28:27.091]	     | Already up to date.
+[2024-11-27 09:28:27.091]	   "tmux-sensible" update success
+[2024-11-27 09:28:27.092]	     | Already up to date.
+[2024-11-27 09:28:27.094]	     | Already up to date.
+[2024-11-27 09:28:27.098]	   "tokyo-night-tmux" update success
+[2024-11-27 09:28:27.099]	     | Already up to date.
+[2024-11-27 09:28:27.117]	   "tmux.nvim" update success
+[2024-11-27 09:28:27.118]	     | Already up to date.
+[2024-11-27 09:28:27.127]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-27 09:28:27.170]	 Done.
+
+[2024-11-27 09:36:33.394]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 09:36:33.395]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 09:36:33.404]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 09:36:33.404]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 09:36:33.613]	 Already installed "tokyo-night-tmux"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-continuum"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-copycat"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-cpu"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-sensible"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-pain-control"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-resurrect"
+[2024-11-27 09:36:33.617]	 Already installed "tmux.nvim"
+[2024-11-27 09:36:33.615]	 Already installed "tmux-copycat"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-resurrect"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-cpu"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-pain-control"
+[2024-11-27 09:36:33.617]	 Already installed "tmux-continuum"
+[2024-11-27 09:36:33.617]	 Already installed "tokyo-night-tmux"
+[2024-11-27 09:36:33.618]	 Already installed "tmux-sensible"
+[2024-11-27 09:36:33.619]	 Already installed "tmux.nvim"
+[2024-11-27 09:36:33.627]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-27 09:36:33.629]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-27 09:36:33.744]	 Updating all plugins!
+[2024-11-27 09:36:33.745]	 
+[2024-11-27 09:36:34.282]	   "tmux-copycat" update success
+[2024-11-27 09:36:34.286]	     | Already up to date.
+[2024-11-27 09:36:34.294]	   "tmux-continuum" update success
+[2024-11-27 09:36:34.296]	     | Already up to date.
+[2024-11-27 09:36:34.336]	   "tmux-pain-control" update success
+[2024-11-27 09:36:34.336]	   "tmux-cpu" update success
+[2024-11-27 09:36:34.339]	     | Already up to date.
+[2024-11-27 09:36:34.342]	     | Already up to date.
+[2024-11-27 09:36:34.347]	   "tmux-resurrect" update success
+[2024-11-27 09:36:34.350]	     | Already up to date.
+[2024-11-27 09:36:34.364]	   "tokyo-night-tmux" update success
+[2024-11-27 09:36:34.367]	     | Already up to date.
+[2024-11-27 09:36:34.385]	   "tmux.nvim" update success
+[2024-11-27 09:36:34.387]	     | Already up to date.
+[2024-11-27 09:36:34.387]	   "tmux-sensible" update success
+[2024-11-27 09:36:34.388]	     | Already up to date.
+[2024-11-27 09:36:33.744]	 Updating all plugins!
+[2024-11-27 09:36:33.744]	 
+[2024-11-27 09:36:34.284]	   "tmux-copycat" update success
+[2024-11-27 09:36:34.285]	   "tmux-cpu" update success
+[2024-11-27 09:36:34.289]	     | Already up to date.
+[2024-11-27 09:36:34.290]	     | Already up to date.
+[2024-11-27 09:36:34.291]	   "tmux-resurrect" update success
+[2024-11-27 09:36:34.294]	     | Already up to date.
+[2024-11-27 09:36:34.330]	   "tmux-pain-control" update success
+[2024-11-27 09:36:34.333]	     | Already up to date.
+[2024-11-27 09:36:34.336]	   "tmux-continuum" update success
+[2024-11-27 09:36:34.339]	     | Already up to date.
+[2024-11-27 09:36:34.362]	   "tokyo-night-tmux" update success
+[2024-11-27 09:36:34.365]	     | Already up to date.
+[2024-11-27 09:36:34.384]	   "tmux.nvim" update success
+[2024-11-27 09:36:34.386]	     | Already up to date.
+[2024-11-27 09:36:34.394]	   "tmux-sensible" update success
+[2024-11-27 09:36:34.395]	     | Already up to date.
+[2024-11-27 09:36:34.398]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-27 09:36:34.405]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-27 09:36:34.448]	 Done.
+
+[2024-11-27 09:36:34.449]	 Done.
+
+[2024-11-27 14:16:51.572]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 14:16:51.582]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 14:16:51.752]	 Already installed "tmux-copycat"
+[2024-11-27 14:16:51.753]	 Already installed "tmux-cpu"
+[2024-11-27 14:16:51.753]	 Already installed "tmux-continuum"
+[2024-11-27 14:16:51.753]	 Already installed "tmux-resurrect"
+[2024-11-27 14:16:51.754]	 Already installed "tmux-sensible"
+[2024-11-27 14:16:51.754]	 Already installed "tmux-pain-control"
+[2024-11-27 14:16:51.756]	 Already installed "tokyo-night-tmux"
+[2024-11-27 14:16:51.756]	 Already installed "tmux.nvim"
+[2024-11-27 14:16:51.766]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-27 14:16:51.892]	 Updating all plugins!
+[2024-11-27 14:16:51.893]	 
+[2024-11-27 14:16:52.310]	   "tmux-copycat" update success
+[2024-11-27 14:16:52.318]	     | Already up to date.
+[2024-11-27 14:16:52.321]	   "tmux-cpu" update success
+[2024-11-27 14:16:52.332]	     | Already up to date.
+[2024-11-27 14:16:52.413]	   "tmux-resurrect" update success
+[2024-11-27 14:16:52.417]	     | Already up to date.
+[2024-11-27 14:16:52.433]	   "tmux-continuum" update success
+[2024-11-27 14:16:52.435]	     | Already up to date.
+[2024-11-27 14:16:52.439]	   "tmux-pain-control" update success
+[2024-11-27 14:16:52.441]	   "tmux-sensible" update success
+[2024-11-27 14:16:52.442]	   "tokyo-night-tmux" update success
+[2024-11-27 14:16:52.442]	     | Already up to date.
+[2024-11-27 14:16:52.442]	   "tmux.nvim" update success
+[2024-11-27 14:16:52.443]	     | Already up to date.
+[2024-11-27 14:16:52.444]	     | Already up to date.
+[2024-11-27 14:16:52.444]	     | Already up to date.
+[2024-11-27 14:16:52.453]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-27 14:16:52.501]	 Done.
+
+[2024-11-27 14:17:19.771]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 14:17:19.781]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 14:17:19.953]	 Already installed "tmux-copycat"
+[2024-11-27 14:17:19.953]	 Already installed "tmux-resurrect"
+[2024-11-27 14:17:19.953]	 Already installed "tmux-cpu"
+[2024-11-27 14:17:19.953]	 Already installed "tmux-sensible"
+[2024-11-27 14:17:19.954]	 Already installed "tmux.nvim"
+[2024-11-27 14:17:19.954]	 Already installed "tmux-continuum"
+[2024-11-27 14:17:19.955]	 Already installed "tmux-pain-control"
+[2024-11-27 14:17:19.956]	 Already installed "tokyo-night-tmux"
+[2024-11-27 14:17:19.966]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-27 14:17:20.191]	 Updating all plugins!
+[2024-11-27 14:17:20.192]	 
+[2024-11-27 14:17:20.825]	   "tmux-cpu" update success
+[2024-11-27 14:17:20.833]	     | Already up to date.
+[2024-11-27 14:17:20.867]	   "tmux-resurrect" update success
+[2024-11-27 14:17:20.867]	   "tmux-continuum" update success
+[2024-11-27 14:17:20.877]	     | Already up to date.
+[2024-11-27 14:17:20.879]	     | Already up to date.
+[2024-11-27 14:17:20.885]	   "tmux-copycat" update success
+[2024-11-27 14:17:20.898]	     | Already up to date.
+[2024-11-27 14:17:20.914]	   "tmux-pain-control" update success
+[2024-11-27 14:17:20.920]	     | Already up to date.
+[2024-11-27 14:17:20.961]	   "tmux-sensible" update success
+[2024-11-27 14:17:20.968]	     | Already up to date.
+[2024-11-27 14:17:20.987]	   "tmux.nvim" update success
+[2024-11-27 14:17:20.995]	     | Already up to date.
+[2024-11-27 14:17:21.013]	   "tokyo-night-tmux" update success
+[2024-11-27 14:17:21.017]	     | Already up to date.
+[2024-11-27 14:17:21.039]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-27 14:17:21.192]	 Done.
+
+[2024-11-27 14:38:27.977]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-27 14:38:27.987]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-27 14:38:28.166]	 Already installed "tmux-copycat"
+[2024-11-27 14:38:28.168]	 Already installed "tmux-cpu"
+[2024-11-27 14:38:28.168]	 Already installed "tmux-resurrect"
+[2024-11-27 14:38:28.169]	 Already installed "tmux-continuum"
+[2024-11-27 14:38:28.170]	 Already installed "tmux-pain-control"
+[2024-11-27 14:38:28.171]	 Already installed "tokyo-night-tmux"
+[2024-11-27 14:38:28.171]	 Already installed "tmux-sensible"
+[2024-11-27 14:38:28.171]	 Already installed "tmux.nvim"
+[2024-11-27 14:38:28.182]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-27 14:38:28.299]	 Updating all plugins!
+[2024-11-27 14:38:28.299]	 
+[2024-11-27 14:38:28.732]	   "tmux-cpu" update success
+[2024-11-27 14:38:28.736]	     | Already up to date.
+[2024-11-27 14:38:28.740]	   "tmux-copycat" update success
+[2024-11-27 14:38:28.743]	     | Already up to date.
+[2024-11-27 14:38:28.744]	   "tmux-resurrect" update success
+[2024-11-27 14:38:28.747]	     | Already up to date.
+[2024-11-27 14:38:28.750]	   "tmux-pain-control" update success
+[2024-11-27 14:38:28.752]	     | Already up to date.
+[2024-11-27 14:38:28.754]	   "tmux-sensible" update success
+[2024-11-27 14:38:28.755]	   "tokyo-night-tmux" update success
+[2024-11-27 14:38:28.756]	     | Already up to date.
+[2024-11-27 14:38:28.757]	     | Already up to date.
+[2024-11-27 14:38:28.764]	   "tmux.nvim" update success
+[2024-11-27 14:38:28.765]	     | Already up to date.
+[2024-11-27 14:38:28.784]	   "tmux-continuum" update success
+[2024-11-27 14:38:28.786]	     | Already up to date.
+[2024-11-27 14:38:28.795]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-27 14:38:28.838]	 Done.
+
+[2024-11-29 10:08:08.496]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-29 10:08:08.506]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-29 10:08:08.705]	 Already installed "tmux-copycat"
+[2024-11-29 10:08:08.707]	 Already installed "tmux-cpu"
+[2024-11-29 10:08:08.710]	 Already installed "tmux-pain-control"
+[2024-11-29 10:08:08.711]	 Already installed "tmux.nvim"
+[2024-11-29 10:08:08.711]	 Already installed "tmux-sensible"
+[2024-11-29 10:08:08.712]	 Already installed "tmux-resurrect"
+[2024-11-29 10:08:08.713]	 Already installed "tokyo-night-tmux"
+[2024-11-29 10:08:08.716]	 Already installed "tmux-continuum"
+[2024-11-29 10:08:08.729]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-29 10:08:08.881]	 Updating all plugins!
+[2024-11-29 10:08:08.883]	 
+[2024-11-29 10:08:09.480]	   "tmux-copycat" update success
+[2024-11-29 10:08:09.484]	     | Already up to date.
+[2024-11-29 10:08:09.507]	   "tmux-cpu" update success
+[2024-11-29 10:08:09.510]	     | Already up to date.
+[2024-11-29 10:08:09.511]	   "tmux-resurrect" update success
+[2024-11-29 10:08:09.515]	     | Already up to date.
+[2024-11-29 10:08:09.587]	   "tmux-pain-control" update success
+[2024-11-29 10:08:09.593]	     | Already up to date.
+[2024-11-29 10:08:09.637]	   "tmux-sensible" update success
+[2024-11-29 10:08:09.642]	     | Already up to date.
+[2024-11-29 10:08:09.644]	   "tokyo-night-tmux" update success
+[2024-11-29 10:08:09.648]	     | Already up to date.
+[2024-11-29 10:08:09.712]	   "tmux.nvim" update success
+[2024-11-29 10:08:09.726]	     | Already up to date.
+[2024-11-29 10:08:09.767]	   "tmux-continuum" update success
+[2024-11-29 10:08:09.772]	     | Already up to date.
+[2024-11-29 10:08:09.792]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-29 10:08:09.900]	 Done.
+
+[2024-11-29 14:09:36.642]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-11-29 14:09:36.652]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-11-29 14:09:36.833]	 Already installed "tmux-copycat"
+[2024-11-29 14:09:36.834]	 Already installed "tmux-continuum"
+[2024-11-29 14:09:36.835]	 Already installed "tmux-cpu"
+[2024-11-29 14:09:36.835]	 Already installed "tmux-pain-control"
+[2024-11-29 14:09:36.836]	 Already installed "tmux-resurrect"
+[2024-11-29 14:09:36.837]	 Already installed "tmux-sensible"
+[2024-11-29 14:09:36.838]	 Already installed "tokyo-night-tmux"
+[2024-11-29 14:09:36.839]	 Already installed "tmux.nvim"
+[2024-11-29 14:09:36.849]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-11-29 14:09:36.986]	 Updating all plugins!
+[2024-11-29 14:09:36.986]	 
+[2024-11-29 14:09:37.478]	   "tmux-cpu" update success
+[2024-11-29 14:09:37.479]	   "tmux-sensible" update success
+[2024-11-29 14:09:37.481]	   "tokyo-night-tmux" update success
+[2024-11-29 14:09:37.481]	     | Already up to date.
+[2024-11-29 14:09:37.481]	   "tmux-continuum" update success
+[2024-11-29 14:09:37.482]	     | Already up to date.
+[2024-11-29 14:09:37.482]	   "tmux.nvim" update success
+[2024-11-29 14:09:37.483]	   "tmux-copycat" update success
+[2024-11-29 14:09:37.484]	     | Already up to date.
+[2024-11-29 14:09:37.484]	     | Already up to date.
+[2024-11-29 14:09:37.484]	   "tmux-pain-control" update success
+[2024-11-29 14:09:37.485]	     | Already up to date.
+[2024-11-29 14:09:37.485]	     | Already up to date.
+[2024-11-29 14:09:37.485]	     | Already up to date.
+[2024-11-29 14:09:37.487]	   "tmux-resurrect" update success
+[2024-11-29 14:09:37.488]	     | Already up to date.
+[2024-11-29 14:09:37.497]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-29 14:09:37.545]	 Done.
+
+[2024-12-02 16:20:53.985]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-02 16:20:53.994]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-02 16:20:54.186]	 Already installed "tmux-resurrect"
+[2024-12-02 16:20:54.186]	 Already installed "tmux-copycat"
+[2024-12-02 16:20:54.186]	 Already installed "tmux-continuum"
+[2024-12-02 16:20:54.187]	 Already installed "tmux-pain-control"
+[2024-12-02 16:20:54.188]	 Already installed "tmux-cpu"
+[2024-12-02 16:20:54.190]	 Already installed "tmux-sensible"
+[2024-12-02 16:20:54.190]	 Already installed "tmux.nvim"
+[2024-12-02 16:20:54.192]	 Already installed "tokyo-night-tmux"
+[2024-12-02 16:20:54.201]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-02 16:20:54.339]	 Updating all plugins!
+[2024-12-02 16:20:54.339]	 
+[2024-12-02 16:20:54.759]	   "tmux-cpu" update success
+[2024-12-02 16:20:54.760]	   "tmux-continuum" update success
+[2024-12-02 16:20:54.761]	   "tmux-pain-control" update success
+[2024-12-02 16:20:54.761]	     | Already up to date.
+[2024-12-02 16:20:54.762]	   "tmux-copycat" update success
+[2024-12-02 16:20:54.763]	     | Already up to date.
+[2024-12-02 16:20:54.764]	     | Already up to date.
+[2024-12-02 16:20:54.764]	     | Already up to date.
+[2024-12-02 16:20:54.776]	   "tmux-resurrect" update success
+[2024-12-02 16:20:54.777]	   "tmux-sensible" update success
+[2024-12-02 16:20:54.777]	     | Already up to date.
+[2024-12-02 16:20:54.778]	     | Already up to date.
+[2024-12-02 16:20:54.793]	   "tmux.nvim" update success
+[2024-12-02 16:20:54.794]	     | Already up to date.
+[2024-12-02 16:20:54.912]	   "tokyo-night-tmux" update success
+[2024-12-02 16:20:54.913]	     | From https://github.com/janoamaral/tokyo-night-tmux
+[2024-12-02 16:20:54.913]	     |    b45b742..d610ced  master     -> origin/master
+[2024-12-02 16:20:54.913]	     |  * [new tag]         v1.6.1     -> v1.6.1
+[2024-12-02 16:20:54.913]	     | Updating b45b742..d610ced
+[2024-12-02 16:20:54.913]	     | Fast-forward
+[2024-12-02 16:20:54.913]	     |  .github/workflows/report.yml |   2 +-
+[2024-12-02 16:20:54.913]	     |  README.md                    |  28 +++++++++++++++++++++++++++-
+[2024-12-02 16:20:54.913]	     |  snaps/hostname.png           | Bin 0 -> 7840 bytes
+[2024-12-02 16:20:54.913]	     |  src/hostname-widget.sh       |  17 +++++++++++++++++
+[2024-12-02 16:20:54.913]	     |  src/themes.sh                |   6 ++++++
+[2024-12-02 16:20:54.913]	     |  tokyo-night.tmux             |  19 ++++++++++++++++---
+[2024-12-02 16:20:54.913]	     |  6 files changed, 67 insertions(+), 5 deletions(-)
+[2024-12-02 16:20:54.913]	     |  create mode 100644 snaps/hostname.png
+[2024-12-02 16:20:54.913]	     |  create mode 100755 src/hostname-widget.sh
+[2024-12-02 16:20:54.913]	     |  mode change 100644 => 100755 src/themes.sh
+[2024-12-02 16:20:54.922]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-02 16:20:54.990]	 Done.
+
+[2024-12-03 17:12:34.905]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-03 17:12:34.921]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-03 17:12:35.153]	 Already installed "tmux-copycat"
+[2024-12-03 17:12:35.153]	 Already installed "tmux-pain-control"
+[2024-12-03 17:12:35.154]	 Already installed "tmux-resurrect"
+[2024-12-03 17:12:35.155]	 Already installed "tmux-continuum"
+[2024-12-03 17:12:35.156]	 Already installed "tmux-cpu"
+[2024-12-03 17:12:35.158]	 Already installed "tmux-sensible"
+[2024-12-03 17:12:35.161]	 Already installed "tmux.nvim"
+[2024-12-03 17:12:35.162]	 Already installed "tokyo-night-tmux"
+[2024-12-03 17:12:35.181]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-03 17:12:35.387]	 Updating all plugins!
+[2024-12-03 17:12:35.387]	 
+[2024-12-03 17:12:35.909]	   "tmux-copycat" update success
+[2024-12-03 17:12:35.915]	     | Already up to date.
+[2024-12-03 17:12:35.921]	   "tmux-resurrect" update success
+[2024-12-03 17:12:35.926]	     | Already up to date.
+[2024-12-03 17:12:35.955]	   "tmux-pain-control" update success
+[2024-12-03 17:12:35.958]	     | Already up to date.
+[2024-12-03 17:12:35.967]	   "tmux-cpu" update success
+[2024-12-03 17:12:35.970]	     | Already up to date.
+[2024-12-03 17:12:35.984]	   "tmux-continuum" update success
+[2024-12-03 17:12:35.988]	   "tmux-sensible" update success
+[2024-12-03 17:12:35.988]	     | Already up to date.
+[2024-12-03 17:12:35.991]	     | Already up to date.
+[2024-12-03 17:12:36.003]	   "tmux.nvim" update success
+[2024-12-03 17:12:36.007]	     | Already up to date.
+[2024-12-03 17:12:36.042]	   "tokyo-night-tmux" update success
+[2024-12-03 17:12:36.045]	     | Already up to date.
+[2024-12-03 17:12:36.064]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-03 17:12:36.160]	 Done.
+
+[2024-12-06 13:44:28.222]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-06 13:44:28.232]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-06 13:44:28.411]	 Already installed "tmux-cpu"
+[2024-12-06 13:44:28.411]	 Already installed "tmux-copycat"
+[2024-12-06 13:44:28.412]	 Already installed "tmux-resurrect"
+[2024-12-06 13:44:28.414]	 Already installed "tmux-pain-control"
+[2024-12-06 13:44:28.415]	 Already installed "tmux-continuum"
+[2024-12-06 13:44:28.416]	 Already installed "tokyo-night-tmux"
+[2024-12-06 13:44:28.417]	 Already installed "tmux-sensible"
+[2024-12-06 13:44:28.417]	 Already installed "tmux.nvim"
+[2024-12-06 13:44:28.427]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-06 13:44:28.548]	 Updating all plugins!
+[2024-12-06 13:44:28.548]	 
+[2024-12-06 13:44:28.946]	   "tmux-continuum" update success
+[2024-12-06 13:44:28.946]	   "tmux-cpu" update success
+[2024-12-06 13:44:28.950]	     | Already up to date.
+[2024-12-06 13:44:28.951]	     | Already up to date.
+[2024-12-06 13:44:28.975]	   "tmux-resurrect" update success
+[2024-12-06 13:44:28.977]	     | Already up to date.
+[2024-12-06 13:44:28.994]	   "tmux-copycat" update success
+[2024-12-06 13:44:28.997]	     | Already up to date.
+[2024-12-06 13:44:28.999]	   "tmux.nvim" update success
+[2024-12-06 13:44:28.999]	   "tmux-sensible" update success
+[2024-12-06 13:44:29.001]	     | Already up to date.
+[2024-12-06 13:44:29.001]	     | Already up to date.
+[2024-12-06 13:44:29.002]	   "tokyo-night-tmux" update success
+[2024-12-06 13:44:29.004]	     | Already up to date.
+[2024-12-06 13:44:29.014]	   "tmux-pain-control" update success
+[2024-12-06 13:44:29.016]	     | Already up to date.
+[2024-12-06 13:44:29.026]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-06 13:44:29.079]	 Done.
+
+[2024-12-09 16:21:28.239]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-09 16:21:28.248]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-09 16:21:28.429]	 Already installed "tmux-cpu"
+[2024-12-09 16:21:28.429]	 Already installed "tmux-continuum"
+[2024-12-09 16:21:28.429]	 Already installed "tmux-resurrect"
+[2024-12-09 16:21:28.429]	 Already installed "tmux-copycat"
+[2024-12-09 16:21:28.430]	 Already installed "tmux.nvim"
+[2024-12-09 16:21:28.430]	 Already installed "tokyo-night-tmux"
+[2024-12-09 16:21:28.430]	 Already installed "tmux-pain-control"
+[2024-12-09 16:21:28.431]	 Already installed "tmux-sensible"
+[2024-12-09 16:21:28.441]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-09 16:21:29.556]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-09 16:21:29.565]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-09 16:21:29.849]	 Already installed "tmux-continuum"
+[2024-12-09 16:21:29.849]	 Already installed "tmux-copycat"
+[2024-12-09 16:21:29.850]	 Already installed "tokyo-night-tmux"
+[2024-12-09 16:21:29.851]	 Already installed "tmux-pain-control"
+[2024-12-09 16:21:29.852]	 Already installed "tmux-cpu"
+[2024-12-09 16:21:29.852]	 Already installed "tmux-sensible"
+[2024-12-09 16:21:29.853]	 Already installed "tmux.nvim"
+[2024-12-09 16:21:29.853]	 Already installed "tmux-resurrect"
+[2024-12-09 16:21:29.864]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-09 16:21:28.637]	 Updating all plugins!
+[2024-12-09 16:21:28.637]	 
+[2024-12-09 16:21:29.036]	   "tmux-copycat" update success
+[2024-12-09 16:21:29.039]	     | Already up to date.
+[2024-12-09 16:21:29.088]	   "tmux-cpu" update success
+[2024-12-09 16:21:29.091]	     | Already up to date.
+[2024-12-09 16:21:29.107]	   "tmux-continuum" update success
+[2024-12-09 16:21:29.111]	     | Already up to date.
+[2024-12-09 16:21:29.128]	   "tmux-sensible" update success
+[2024-12-09 16:21:29.130]	   "tmux-pain-control" update success
+[2024-12-09 16:21:29.130]	   "tmux-resurrect" update success
+[2024-12-09 16:21:29.130]	     | Already up to date.
+[2024-12-09 16:21:29.131]	     | Already up to date.
+[2024-12-09 16:21:29.132]	     | Already up to date.
+[2024-12-09 16:21:29.149]	   "tokyo-night-tmux" update success
+[2024-12-09 16:21:29.151]	     | Already up to date.
+[2024-12-09 16:21:30.675]	   "tmux.nvim" update success
+[2024-12-09 16:21:30.676]	     | Already up to date.
+[2024-12-09 16:21:30.686]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-09 16:21:30.733]	 Done.
+
+[2024-12-09 16:21:29.990]	 Updating all plugins!
+[2024-12-09 16:21:29.990]	 
+[2024-12-09 16:21:30.398]	   "tmux-copycat" update success
+[2024-12-09 16:21:30.401]	     | Already up to date.
+[2024-12-09 16:21:30.434]	   "tmux-cpu" update success
+[2024-12-09 16:21:30.437]	     | Already up to date.
+[2024-12-09 16:21:30.480]	   "tmux-resurrect" update success
+[2024-12-09 16:21:30.482]	     | Already up to date.
+[2024-12-09 16:21:30.527]	   "tmux-continuum" update success
+[2024-12-09 16:21:30.531]	     | Already up to date.
+[2024-12-09 16:21:30.594]	   "tmux-pain-control" update success
+[2024-12-09 16:21:30.596]	     | Already up to date.
+[2024-12-09 16:21:30.600]	   "tokyo-night-tmux" update success
+[2024-12-09 16:21:30.602]	     | Already up to date.
+[2024-12-09 16:21:30.605]	   "tmux-sensible" update success
+[2024-12-09 16:21:30.607]	     | Already up to date.
+[2024-12-09 16:21:31.558]	   "tmux.nvim" update success
+[2024-12-09 16:21:31.559]	     | Already up to date.
+[2024-12-09 16:21:31.569]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-09 16:21:31.591]	 Removing "tmux-continuum"
+[2024-12-09 16:21:31.597]	   "tmux-continuum" clean success
+[2024-12-09 16:21:31.599]	 Removing "tmux-copycat"
+[2024-12-09 16:21:31.606]	   "tmux-copycat" clean success
+[2024-12-09 16:21:31.609]	 Removing "tmux-cpu"
+[2024-12-09 16:21:31.616]	   "tmux-cpu" clean success
+[2024-12-09 16:21:31.618]	 Removing "tmux-pain-control"
+[2024-12-09 16:21:31.624]	   "tmux-pain-control" clean success
+[2024-12-09 16:21:31.626]	 Removing "tmux-resurrect"
+[2024-12-09 16:21:31.640]	   "tmux-resurrect" clean success
+[2024-12-09 16:21:31.641]	 Removing "tmux-sensible"
+[2024-12-09 16:21:31.645]	   "tmux-sensible" clean success
+[2024-12-09 16:21:31.646]	 Removing "tmux.nvim"
+[2024-12-09 16:21:31.653]	   "tmux.nvim" clean success
+[2024-12-09 16:21:31.654]	 Removing "tokyo-night-tmux"
+[2024-12-09 16:21:31.670]	   "tokyo-night-tmux" clean success
+[2024-12-09 16:21:31.681]	 Done.
+
+[2024-12-09 16:21:31.729]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-09 16:21:31.737]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-09 16:21:31.899]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-09 16:21:32.016]	 Updating all plugins!
+[2024-12-09 16:21:32.016]	 
+[2024-12-09 16:21:32.037]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-09 16:21:32.071]	 Done.
+
+[2024-12-16 09:39:40.626]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-16 09:39:40.636]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-16 09:39:40.792]	 Installing "tmux-copycat"
+[2024-12-16 09:39:40.793]	 Installing "tmux-cpu"
+[2024-12-16 09:39:40.793]	 Installing "tmux-resurrect"
+[2024-12-16 09:39:40.794]	 Installing "tmux-continuum"
+[2024-12-16 09:39:40.795]	 Installing "tmux-pain-control"
+[2024-12-16 09:39:40.797]	 Installing "tmux-sensible"
+[2024-12-16 09:39:40.797]	 Installing "tmux.nvim"
+[2024-12-16 09:39:40.798]	 Installing "tokyo-night-tmux"
+[2024-12-16 09:39:41.422]	   "tmux-cpu" download success
+[2024-12-16 09:39:41.423]	   "tmux-sensible" download success
+[2024-12-16 09:39:41.426]	   "tmux-copycat" download success
+[2024-12-16 09:39:41.427]	   "tmux.nvim" download success
+[2024-12-16 09:39:41.427]	   "tmux-continuum" download success
+[2024-12-16 09:39:41.428]	   "tmux-pain-control" download success
+[2024-12-16 09:39:41.457]	   "tokyo-night-tmux" download success
+[2024-12-16 09:39:41.829]	   "tmux-resurrect" download success
+[2024-12-16 09:39:41.841]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-16 09:39:42.007]	 Updating all plugins!
+[2024-12-16 09:39:42.008]	 
+[2024-12-16 09:39:42.353]	   "tmux-copycat" update success
+[2024-12-16 09:39:42.355]	     | Already up to date.
+[2024-12-16 09:39:42.363]	   "tmux-resurrect" update success
+[2024-12-16 09:39:42.365]	     | Already up to date.
+[2024-12-16 09:39:42.371]	   "tmux-cpu" update success
+[2024-12-16 09:39:42.373]	     | Already up to date.
+[2024-12-16 09:39:42.406]	   "tmux-sensible" update success
+[2024-12-16 09:39:42.407]	   "tmux-pain-control" update success
+[2024-12-16 09:39:42.408]	     | Already up to date.
+[2024-12-16 09:39:42.409]	     | Already up to date.
+[2024-12-16 09:39:42.418]	   "tmux-continuum" update success
+[2024-12-16 09:39:42.419]	     | Already up to date.
+[2024-12-16 09:39:42.425]	   "tokyo-night-tmux" update success
+[2024-12-16 09:39:42.426]	     | Already up to date.
+[2024-12-16 09:39:42.444]	   "tmux.nvim" update success
+[2024-12-16 09:39:42.445]	     | Already up to date.
+[2024-12-16 09:39:42.454]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-16 09:39:42.513]	 Done.
+
+[2024-12-16 09:40:00.168]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-16 09:40:00.177]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-16 09:40:00.363]	 Already installed "tmux-copycat"
+[2024-12-16 09:40:00.364]	 Already installed "tmux-resurrect"
+[2024-12-16 09:40:00.364]	 Already installed "tmux-cpu"
+[2024-12-16 09:40:00.365]	 Already installed "tmux-continuum"
+[2024-12-16 09:40:00.366]	 Already installed "tmux-sensible"
+[2024-12-16 09:40:00.366]	 Already installed "tmux-pain-control"
+[2024-12-16 09:40:00.367]	 Already installed "tokyo-night-tmux"
+[2024-12-16 09:40:00.370]	 Already installed "tmux.nvim"
+[2024-12-16 09:40:00.380]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-16 09:40:00.521]	 Updating all plugins!
+[2024-12-16 09:40:00.522]	 
+[2024-12-16 09:40:00.885]	   "tmux-cpu" update success
+[2024-12-16 09:40:00.887]	     | Already up to date.
+[2024-12-16 09:40:00.922]	   "tmux-sensible" update success
+[2024-12-16 09:40:00.925]	     | Already up to date.
+[2024-12-16 09:40:00.934]	   "tmux-continuum" update success
+[2024-12-16 09:40:00.937]	     | Already up to date.
+[2024-12-16 09:40:00.948]	   "tmux-copycat" update success
+[2024-12-16 09:40:00.950]	   "tmux-pain-control" update success
+[2024-12-16 09:40:00.950]	     | Already up to date.
+[2024-12-16 09:40:00.951]	     | Already up to date.
+[2024-12-16 09:40:00.958]	   "tmux.nvim" update success
+[2024-12-16 09:40:00.959]	     | Already up to date.
+[2024-12-16 09:40:00.967]	   "tokyo-night-tmux" update success
+[2024-12-16 09:40:00.969]	     | Already up to date.
+[2024-12-16 09:40:01.000]	   "tmux-resurrect" update success
+[2024-12-16 09:40:01.001]	     | Already up to date.
+[2024-12-16 09:40:01.010]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-16 09:40:01.051]	 Done.
+
+[2024-12-16 09:40:14.907]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-16 09:40:14.916]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-16 09:40:15.106]	 Already installed "tmux-copycat"
+[2024-12-16 09:40:15.107]	 Already installed "tmux-cpu"
+[2024-12-16 09:40:15.107]	 Already installed "tmux-pain-control"
+[2024-12-16 09:40:15.107]	 Already installed "tmux-continuum"
+[2024-12-16 09:40:15.107]	 Already installed "tmux-resurrect"
+[2024-12-16 09:40:15.108]	 Already installed "tmux-sensible"
+[2024-12-16 09:40:15.108]	 Already installed "tmux.nvim"
+[2024-12-16 09:40:15.109]	 Already installed "tokyo-night-tmux"
+[2024-12-16 09:40:15.119]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-16 09:40:15.237]	 Updating all plugins!
+[2024-12-16 09:40:15.237]	 
+[2024-12-16 09:40:15.602]	   "tmux-copycat" update success
+[2024-12-16 09:40:15.604]	     | Already up to date.
+[2024-12-16 09:40:15.628]	   "tmux-cpu" update success
+[2024-12-16 09:40:15.631]	     | Already up to date.
+[2024-12-16 09:40:15.638]	   "tmux-continuum" update success
+[2024-12-16 09:40:15.641]	     | Already up to date.
+[2024-12-16 09:40:15.642]	   "tmux-resurrect" update success
+[2024-12-16 09:40:15.645]	     | Already up to date.
+[2024-12-16 09:40:15.658]	   "tmux-pain-control" update success
+[2024-12-16 09:40:15.659]	     | Already up to date.
+[2024-12-16 09:40:15.678]	   "tmux.nvim" update success
+[2024-12-16 09:40:15.678]	   "tokyo-night-tmux" update success
+[2024-12-16 09:40:15.680]	     | Already up to date.
+[2024-12-16 09:40:15.680]	     | Already up to date.
+[2024-12-16 09:40:15.694]	   "tmux-sensible" update success
+[2024-12-16 09:40:15.695]	     | Already up to date.
+[2024-12-16 09:40:15.705]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-16 09:40:15.746]	 Done.
+
+[2024-12-18 10:53:38.812]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2024-12-18 10:53:38.822]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-12-18 10:53:39.013]	 Already installed "tmux-copycat"
+[2024-12-18 10:53:39.013]	 Already installed "tmux-cpu"
+[2024-12-18 10:53:39.014]	 Already installed "tmux-continuum"
+[2024-12-18 10:53:39.014]	 Already installed "tmux-resurrect"
+[2024-12-18 10:53:39.016]	 Already installed "tmux-pain-control"
+[2024-12-18 10:53:39.017]	 Already installed "tmux-sensible"
+[2024-12-18 10:53:39.018]	 Already installed "tmux.nvim"
+[2024-12-18 10:53:39.018]	 Already installed "tokyo-night-tmux"
+[2024-12-18 10:53:39.028]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-12-18 10:53:39.147]	 Updating all plugins!
+[2024-12-18 10:53:39.147]	 
+[2024-12-18 10:53:39.601]	   "tmux-cpu" update success
+[2024-12-18 10:53:39.601]	   "tmux-copycat" update success
+[2024-12-18 10:53:39.603]	   "tmux-pain-control" update success
+[2024-12-18 10:53:39.604]	     | Already up to date.
+[2024-12-18 10:53:39.605]	     | Already up to date.
+[2024-12-18 10:53:39.606]	     | Already up to date.
+[2024-12-18 10:53:39.609]	   "tokyo-night-tmux" update success
+[2024-12-18 10:53:39.609]	   "tmux-resurrect" update success
+[2024-12-18 10:53:39.611]	     | Already up to date.
+[2024-12-18 10:53:39.611]	     | Already up to date.
+[2024-12-18 10:53:39.615]	   "tmux-sensible" update success
+[2024-12-18 10:53:39.616]	   "tmux-continuum" update success
+[2024-12-18 10:53:39.616]	     | Already up to date.
+[2024-12-18 10:53:39.617]	     | Already up to date.
+[2024-12-18 10:53:39.640]	   "tmux.nvim" update success
+[2024-12-18 10:53:39.642]	     | Already up to date.
+[2024-12-18 10:53:39.651]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-18 10:53:39.707]	 Done.
+
+[2025-01-06 11:02:51.128]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-06 11:02:51.147]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-06 11:02:51.386]	 Already installed "tmux-resurrect"
+[2025-01-06 11:02:51.389]	 Already installed "tmux-cpu"
+[2025-01-06 11:02:51.389]	 Already installed "tmux-continuum"
+[2025-01-06 11:02:51.390]	 Already installed "tmux-pain-control"
+[2025-01-06 11:02:51.390]	 Already installed "tmux-sensible"
+[2025-01-06 11:02:51.390]	 Already installed "tmux.nvim"
+[2025-01-06 11:02:51.393]	 Already installed "tokyo-night-tmux"
+[2025-01-06 11:02:51.393]	 Already installed "tmux-copycat"
+[2025-01-06 11:02:51.414]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-06 11:02:51.591]	 Updating all plugins!
+[2025-01-06 11:02:51.593]	 
+[2025-01-06 11:02:52.479]	   "tmux-cpu" update success
+[2025-01-06 11:02:52.483]	   "tmux-copycat" update success
+[2025-01-06 11:02:52.485]	     | Already up to date.
+[2025-01-06 11:02:52.485]	     | Already up to date.
+[2025-01-06 11:02:52.505]	   "tmux-resurrect" update success
+[2025-01-06 11:02:52.509]	     | Already up to date.
+[2025-01-06 11:02:52.551]	   "tmux-continuum" update success
+[2025-01-06 11:02:52.558]	     | Already up to date.
+[2025-01-06 11:02:52.610]	   "tmux-pain-control" update success
+[2025-01-06 11:02:52.611]	     | Already up to date.
+[2025-01-06 11:02:52.744]	   "tokyo-night-tmux" update success
+[2025-01-06 11:02:52.746]	     | Already up to date.
+[2025-01-06 11:02:52.749]	   "tmux-sensible" update success
+[2025-01-06 11:02:52.751]	     | Already up to date.
+[2025-01-06 11:02:52.827]	   "tmux.nvim" update success
+[2025-01-06 11:02:52.829]	     | Already up to date.
+[2025-01-06 11:02:52.839]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-06 11:02:52.912]	 Done.
+
+[2025-01-06 11:03:58.594]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-06 11:03:58.603]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-06 11:03:58.809]	 Already installed "tmux-copycat"
+[2025-01-06 11:03:58.809]	 Already installed "tmux-resurrect"
+[2025-01-06 11:03:58.811]	 Already installed "tmux-continuum"
+[2025-01-06 11:03:58.812]	 Already installed "tmux-cpu"
+[2025-01-06 11:03:58.812]	 Already installed "tmux-sensible"
+[2025-01-06 11:03:58.813]	 Already installed "tmux-pain-control"
+[2025-01-06 11:03:58.813]	 Already installed "tmux.nvim"
+[2025-01-06 11:03:58.813]	 Already installed "tokyo-night-tmux"
+[2025-01-06 11:03:58.828]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-06 11:03:58.973]	 Updating all plugins!
+[2025-01-06 11:03:58.974]	 
+[2025-01-06 11:03:59.491]	   "tmux-cpu" update success
+[2025-01-06 11:03:59.495]	     | Already up to date.
+[2025-01-06 11:03:59.497]	   "tmux-copycat" update success
+[2025-01-06 11:03:59.504]	     | Already up to date.
+[2025-01-06 11:03:59.544]	   "tmux-resurrect" update success
+[2025-01-06 11:03:59.550]	     | Already up to date.
+[2025-01-06 11:03:59.577]	   "tmux-continuum" update success
+[2025-01-06 11:03:59.580]	     | Already up to date.
+[2025-01-06 11:03:59.618]	   "tmux-sensible" update success
+[2025-01-06 11:03:59.622]	     | Already up to date.
+[2025-01-06 11:03:59.634]	   "tokyo-night-tmux" update success
+[2025-01-06 11:03:59.641]	     | Already up to date.
+[2025-01-06 11:03:59.651]	   "tmux-pain-control" update success
+[2025-01-06 11:03:59.655]	     | Already up to date.
+[2025-01-06 11:03:59.661]	   "tmux.nvim" update success
+[2025-01-06 11:03:59.665]	     | Already up to date.
+[2025-01-06 11:03:59.680]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-06 11:03:59.864]	 Done.
+
+[2025-01-08 09:16:29.795]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-08 09:16:29.805]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-08 09:16:30.019]	 Already installed "tmux-copycat"
+[2025-01-08 09:16:30.020]	 Already installed "tmux-cpu"
+[2025-01-08 09:16:30.021]	 Already installed "tmux-sensible"
+[2025-01-08 09:16:30.022]	 Already installed "tmux-resurrect"
+[2025-01-08 09:16:30.024]	 Already installed "tmux-continuum"
+[2025-01-08 09:16:30.024]	 Already installed "tmux.nvim"
+[2025-01-08 09:16:30.024]	 Already installed "tmux-pain-control"
+[2025-01-08 09:16:30.027]	 Already installed "tokyo-night-tmux"
+[2025-01-08 09:16:30.044]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-08 09:16:30.203]	 Updating all plugins!
+[2025-01-08 09:16:30.204]	 
+[2025-01-08 09:16:30.804]	   "tmux-resurrect" update success
+[2025-01-08 09:16:30.809]	   "tmux-cpu" update success
+[2025-01-08 09:16:30.809]	     | Already up to date.
+[2025-01-08 09:16:30.813]	     | Already up to date.
+[2025-01-08 09:16:30.814]	   "tmux-copycat" update success
+[2025-01-08 09:16:30.819]	     | Already up to date.
+[2025-01-08 09:16:30.822]	   "tmux-continuum" update success
+[2025-01-08 09:16:30.827]	     | Already up to date.
+[2025-01-08 09:16:30.842]	   "tmux-pain-control" update success
+[2025-01-08 09:16:30.847]	     | Already up to date.
+[2025-01-08 09:16:30.851]	   "tmux-sensible" update success
+[2025-01-08 09:16:30.855]	     | Already up to date.
+[2025-01-08 09:16:30.897]	   "tokyo-night-tmux" update success
+[2025-01-08 09:16:30.910]	     | Already up to date.
+[2025-01-08 09:16:31.017]	   "tmux.nvim" update success
+[2025-01-08 09:16:31.022]	     | Already up to date.
+[2025-01-08 09:16:31.043]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-08 09:16:31.160]	 Done.
+
+[2025-01-10 11:00:38.266]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-10 11:00:38.281]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-10 11:00:38.529]	 Already installed "tmux-cpu"
+[2025-01-10 11:00:38.532]	 Already installed "tmux-copycat"
+[2025-01-10 11:00:38.532]	 Already installed "tmux-sensible"
+[2025-01-10 11:00:38.532]	 Already installed "tmux-pain-control"
+[2025-01-10 11:00:38.532]	 Already installed "tmux-resurrect"
+[2025-01-10 11:00:38.532]	 Already installed "tokyo-night-tmux"
+[2025-01-10 11:00:38.532]	 Already installed "tmux-continuum"
+[2025-01-10 11:00:38.532]	 Already installed "tmux.nvim"
+[2025-01-10 11:00:38.547]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-10 11:00:38.713]	 Updating all plugins!
+[2025-01-10 11:00:38.714]	 
+[2025-01-10 11:00:39.297]	   "tmux-cpu" update success
+[2025-01-10 11:00:39.302]	     | Already up to date.
+[2025-01-10 11:00:39.302]	   "tmux-copycat" update success
+[2025-01-10 11:00:39.303]	   "tmux-resurrect" update success
+[2025-01-10 11:00:39.303]	   "tmux-pain-control" update success
+[2025-01-10 11:00:39.303]	   "tmux-continuum" update success
+[2025-01-10 11:00:39.306]	     | Already up to date.
+[2025-01-10 11:00:39.306]	     | Already up to date.
+[2025-01-10 11:00:39.306]	     | Already up to date.
+[2025-01-10 11:00:39.307]	     | Already up to date.
+[2025-01-10 11:00:39.308]	   "tmux-sensible" update success
+[2025-01-10 11:00:39.311]	     | Already up to date.
+[2025-01-10 11:00:39.336]	   "tokyo-night-tmux" update success
+[2025-01-10 11:00:39.339]	     | Already up to date.
+[2025-01-10 11:00:39.348]	   "tmux.nvim" update success
+[2025-01-10 11:00:39.350]	     | Already up to date.
+[2025-01-10 11:00:39.361]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-10 11:00:39.422]	 Done.
+
+[2025-01-16 10:21:41.272]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-16 10:21:41.281]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-16 10:21:41.491]	 Already installed "tmux-resurrect"
+[2025-01-16 10:21:41.493]	 Already installed "tmux-copycat"
+[2025-01-16 10:21:41.493]	 Already installed "tmux-cpu"
+[2025-01-16 10:21:41.493]	 Already installed "tmux-sensible"
+[2025-01-16 10:21:41.493]	 Already installed "tmux-continuum"
+[2025-01-16 10:21:41.494]	 Already installed "tmux-pain-control"
+[2025-01-16 10:21:41.494]	 Already installed "tokyo-night-tmux"
+[2025-01-16 10:21:41.496]	 Already installed "tmux.nvim"
+[2025-01-16 10:21:41.514]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-16 10:21:41.792]	 Updating all plugins!
+[2025-01-16 10:21:41.794]	 
+[2025-01-16 10:21:42.691]	   "tmux-cpu" update success
+[2025-01-16 10:21:42.698]	   "tmux-copycat" update success
+[2025-01-16 10:21:42.701]	   "tmux-continuum" update success
+[2025-01-16 10:21:42.704]	     | Already up to date.
+[2025-01-16 10:21:42.704]	   "tmux-sensible" update success
+[2025-01-16 10:21:42.705]	     | Already up to date.
+[2025-01-16 10:21:42.706]	     | Already up to date.
+[2025-01-16 10:21:42.708]	   "tmux-resurrect" update success
+[2025-01-16 10:21:42.710]	     | Already up to date.
+[2025-01-16 10:21:42.712]	   "tmux-pain-control" update success
+[2025-01-16 10:21:42.712]	     | Already up to date.
+[2025-01-16 10:21:42.715]	     | Already up to date.
+[2025-01-16 10:21:42.733]	   "tokyo-night-tmux" update success
+[2025-01-16 10:21:42.737]	     | Already up to date.
+[2025-01-16 10:21:42.741]	   "tmux.nvim" update success
+[2025-01-16 10:21:42.746]	     | Already up to date.
+[2025-01-16 10:21:42.765]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-16 10:21:42.887]	 Done.
+
+[2025-01-27 09:11:52.377]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-27 09:11:52.387]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-27 09:11:52.591]	 Already installed "tmux-cpu"
+[2025-01-27 09:11:52.593]	 Already installed "tmux-copycat"
+[2025-01-27 09:11:52.593]	 Already installed "tmux-continuum"
+[2025-01-27 09:11:52.594]	 Already installed "tmux-resurrect"
+[2025-01-27 09:11:52.599]	 Already installed "tmux-pain-control"
+[2025-01-27 09:11:52.600]	 Already installed "tmux-sensible"
+[2025-01-27 09:11:52.601]	 Already installed "tokyo-night-tmux"
+[2025-01-27 09:11:52.603]	 Already installed "tmux.nvim"
+[2025-01-27 09:11:52.622]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-27 09:11:52.783]	 Updating all plugins!
+[2025-01-27 09:11:52.785]	 
+[2025-01-27 09:11:53.508]	   "tmux-cpu" update success
+[2025-01-27 09:11:53.514]	     | Already up to date.
+[2025-01-27 09:11:53.548]	   "tmux-copycat" update success
+[2025-01-27 09:11:53.557]	     | Already up to date.
+[2025-01-27 09:11:53.574]	   "tmux-continuum" update success
+[2025-01-27 09:11:53.586]	     | Already up to date.
+[2025-01-27 09:11:53.602]	   "tmux-resurrect" update success
+[2025-01-27 09:11:53.608]	     | Already up to date.
+[2025-01-27 09:11:53.622]	   "tmux-pain-control" update success
+[2025-01-27 09:11:53.626]	     | Already up to date.
+[2025-01-27 09:11:53.648]	   "tmux-sensible" update success
+[2025-01-27 09:11:53.651]	     | Already up to date.
+[2025-01-27 09:11:53.657]	   "tokyo-night-tmux" update success
+[2025-01-27 09:11:53.659]	     | Already up to date.
+[2025-01-27 09:11:53.669]	   "tmux.nvim" update success
+[2025-01-27 09:11:53.673]	     | Already up to date.
+[2025-01-27 09:11:53.694]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-27 09:11:53.840]	 Done.
+
+[2025-01-31 17:05:07.523]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-31 17:05:07.523]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-31 17:05:07.532]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-31 17:05:07.532]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-31 17:05:07.750]	 Already installed "tmux-continuum"
+[2025-01-31 17:05:07.752]	 Already installed "tmux-resurrect"
+[2025-01-31 17:05:07.754]	 Already installed "tmux-copycat"
+[2025-01-31 17:05:07.756]	 Already installed "tmux-cpu"
+[2025-01-31 17:05:07.758]	 Already installed "tmux-pain-control"
+[2025-01-31 17:05:07.758]	 Already installed "tmux-sensible"
+[2025-01-31 17:05:07.760]	 Already installed "tokyo-night-tmux"
+[2025-01-31 17:05:07.762]	 Already installed "tmux.nvim"
+[2025-01-31 17:05:07.754]	 Already installed "tmux-cpu"
+[2025-01-31 17:05:07.755]	 Already installed "tmux-copycat"
+[2025-01-31 17:05:07.756]	 Already installed "tmux-resurrect"
+[2025-01-31 17:05:07.757]	 Already installed "tmux-sensible"
+[2025-01-31 17:05:07.759]	 Already installed "tmux-continuum"
+[2025-01-31 17:05:07.761]	 Already installed "tokyo-night-tmux"
+[2025-01-31 17:05:07.761]	 Already installed "tmux.nvim"
+[2025-01-31 17:05:07.762]	 Already installed "tmux-pain-control"
+[2025-01-31 17:05:07.771]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-31 17:05:07.771]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-31 17:05:07.980]	 Updating all plugins!
+[2025-01-31 17:05:07.980]	 
+[2025-01-31 17:05:08.556]	   "tmux-copycat" update success
+[2025-01-31 17:05:08.556]	   "tmux-pain-control" update success
+[2025-01-31 17:05:08.557]	   "tmux-cpu" update success
+[2025-01-31 17:05:08.560]	     | Already up to date.
+[2025-01-31 17:05:08.560]	   "tokyo-night-tmux" update success
+[2025-01-31 17:05:08.560]	     | Already up to date.
+[2025-01-31 17:05:08.561]	     | Already up to date.
+[2025-01-31 17:05:08.562]	     | Already up to date.
+[2025-01-31 17:05:08.565]	   "tmux-resurrect" update success
+[2025-01-31 17:05:08.567]	     | Already up to date.
+[2025-01-31 17:05:08.570]	   "tmux-sensible" update success
+[2025-01-31 17:05:08.572]	     | Already up to date.
+[2025-01-31 17:05:08.592]	   "tmux.nvim" update success
+[2025-01-31 17:05:08.593]	     | Already up to date.
+[2025-01-31 17:05:09.442]	   "tmux-continuum" update success
+[2025-01-31 17:05:09.444]	     | Already up to date.
+[2025-01-31 17:05:07.980]	 Updating all plugins!
+[2025-01-31 17:05:07.980]	 
+[2025-01-31 17:05:08.550]	   "tmux-copycat" update success
+[2025-01-31 17:05:08.552]	   "tmux-pain-control" update success
+[2025-01-31 17:05:08.552]	   "tmux-cpu" update success
+[2025-01-31 17:05:08.557]	     | Already up to date.
+[2025-01-31 17:05:08.559]	     | Already up to date.
+[2025-01-31 17:05:08.559]	   "tokyo-night-tmux" update success
+[2025-01-31 17:05:08.560]	     | Already up to date.
+[2025-01-31 17:05:08.562]	   "tmux-resurrect" update success
+[2025-01-31 17:05:08.562]	   "tmux-sensible" update success
+[2025-01-31 17:05:08.562]	     | Already up to date.
+[2025-01-31 17:05:08.564]	     | Already up to date.
+[2025-01-31 17:05:08.564]	     | Already up to date.
+[2025-01-31 17:05:08.596]	   "tmux.nvim" update success
+[2025-01-31 17:05:08.597]	     | Already up to date.
+[2025-01-31 17:05:09.442]	   "tmux-continuum" update success
+[2025-01-31 17:05:09.444]	     | Already up to date.
+[2025-01-31 17:05:09.454]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-31 17:05:09.454]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-31 17:05:09.535]	 Done.
+[2025-01-31 17:05:09.535]	 Done.
+
+
+[2025-01-31 17:08:30.199]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-31 17:08:30.208]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-31 17:08:30.405]	 Already installed "tmux-pain-control"
+[2025-01-31 17:08:30.406]	 Already installed "tmux-copycat"
+[2025-01-31 17:08:30.407]	 Already installed "tmux-continuum"
+[2025-01-31 17:08:30.408]	 Already installed "tmux-cpu"
+[2025-01-31 17:08:30.408]	 Already installed "tmux-resurrect"
+[2025-01-31 17:08:30.408]	 Already installed "tmux-sensible"
+[2025-01-31 17:08:30.410]	 Already installed "tmux.nvim"
+[2025-01-31 17:08:30.411]	 Already installed "tokyo-night-tmux"
+[2025-01-31 17:08:30.421]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-31 17:08:30.545]	 Updating all plugins!
+[2025-01-31 17:08:30.545]	 
+[2025-01-31 17:08:30.985]	   "tmux-copycat" update success
+[2025-01-31 17:08:30.988]	     | Already up to date.
+[2025-01-31 17:08:30.998]	   "tmux-cpu" update success
+[2025-01-31 17:08:31.001]	     | Already up to date.
+[2025-01-31 17:08:31.024]	   "tmux-continuum" update success
+[2025-01-31 17:08:31.030]	     | Already up to date.
+[2025-01-31 17:08:31.047]	   "tmux-pain-control" update success
+[2025-01-31 17:08:31.048]	   "tmux-resurrect" update success
+[2025-01-31 17:08:31.051]	     | Already up to date.
+[2025-01-31 17:08:31.055]	     | Already up to date.
+[2025-01-31 17:08:31.088]	   "tmux-sensible" update success
+[2025-01-31 17:08:31.093]	     | Already up to date.
+[2025-01-31 17:08:31.110]	   "tmux.nvim" update success
+[2025-01-31 17:08:31.110]	   "tokyo-night-tmux" update success
+[2025-01-31 17:08:31.111]	     | Already up to date.
+[2025-01-31 17:08:31.111]	     | Already up to date.
+[2025-01-31 17:08:31.121]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-31 17:08:31.164]	 Done.
+
+[2025-01-31 17:24:16.708]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-01-31 17:24:16.717]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-01-31 17:24:16.916]	 Already installed "tmux-copycat"
+[2025-01-31 17:24:16.917]	 Already installed "tmux-cpu"
+[2025-01-31 17:24:16.918]	 Already installed "tmux-resurrect"
+[2025-01-31 17:24:16.920]	 Already installed "tmux-sensible"
+[2025-01-31 17:24:16.920]	 Already installed "tmux.nvim"
+[2025-01-31 17:24:16.921]	 Already installed "tmux-pain-control"
+[2025-01-31 17:24:16.922]	 Already installed "tmux-continuum"
+[2025-01-31 17:24:16.923]	 Already installed "tokyo-night-tmux"
+[2025-01-31 17:24:16.935]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-01-31 17:24:17.080]	 Updating all plugins!
+[2025-01-31 17:24:17.082]	 
+[2025-01-31 17:24:17.650]	   "tmux-cpu" update success
+[2025-01-31 17:24:17.654]	   "tmux-copycat" update success
+[2025-01-31 17:24:17.655]	     | Already up to date.
+[2025-01-31 17:24:17.657]	     | Already up to date.
+[2025-01-31 17:24:17.707]	   "tmux-resurrect" update success
+[2025-01-31 17:24:17.714]	     | Already up to date.
+[2025-01-31 17:24:17.759]	   "tmux-continuum" update success
+[2025-01-31 17:24:17.766]	     | Already up to date.
+[2025-01-31 17:24:17.789]	   "tmux-pain-control" update success
+[2025-01-31 17:24:17.792]	     | Already up to date.
+[2025-01-31 17:24:17.793]	   "tokyo-night-tmux" update success
+[2025-01-31 17:24:17.796]	     | Already up to date.
+[2025-01-31 17:24:17.799]	   "tmux-sensible" update success
+[2025-01-31 17:24:17.802]	     | Already up to date.
+[2025-01-31 17:24:17.823]	   "tmux.nvim" update success
+[2025-01-31 17:24:17.826]	     | Already up to date.
+[2025-01-31 17:24:17.850]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-31 17:24:17.970]	 Done.
+
+[2025-02-05 09:48:02.580]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-pain-control tmux-plugins/tmux-sensible janoamaral/tokyo-night-tmux aserowy/tmux.nvim
+[2025-02-05 09:48:02.592]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-02-05 09:48:02.860]	 Already installed "tmux-pain-control"
+[2025-02-05 09:48:02.862]	 Already installed "tmux-continuum"
+[2025-02-05 09:48:02.862]	 Already installed "tmux-resurrect"
+[2025-02-05 09:48:02.862]	 Already installed "tmux-sensible"
+[2025-02-05 09:48:02.862]	 Already installed "tmux-copycat"
+[2025-02-05 09:48:02.862]	 Already installed "tmux-cpu"
+[2025-02-05 09:48:02.864]	 Already installed "tokyo-night-tmux"
+[2025-02-05 09:48:02.864]	 Already installed "tmux.nvim"
+[2025-02-05 09:48:02.887]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-02-05 09:48:03.059]	 Updating all plugins!
+[2025-02-05 09:48:03.060]	 
+[2025-02-05 09:48:04.010]	   "tmux-continuum" update success
+[2025-02-05 09:48:04.010]	   "tmux-copycat" update success
+[2025-02-05 09:48:04.012]	   "tmux-cpu" update success
+[2025-02-05 09:48:04.014]	     | Already up to date.
+[2025-02-05 09:48:04.014]	     | Already up to date.
+[2025-02-05 09:48:04.015]	     | Already up to date.
+[2025-02-05 09:48:04.148]	   "tokyo-night-tmux" update success
+[2025-02-05 09:48:04.148]	   "tmux-pain-control" update success
+[2025-02-05 09:48:04.165]	     | Already up to date.
+[2025-02-05 09:48:04.166]	     | Already up to date.
+[2025-02-05 09:48:04.169]	   "tmux-resurrect" update success
+[2025-02-05 09:48:04.176]	     | Already up to date.
+[2025-02-05 09:48:04.209]	   "tmux-sensible" update success
+[2025-02-05 09:48:04.213]	     | Already up to date.
+[2025-02-05 09:48:04.277]	   "tmux.nvim" update success
+[2025-02-05 09:48:04.280]	     | Already up to date.
+[2025-02-05 09:48:04.299]	 Invoking /Users/sean/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-05 09:48:04.493]	 Done.
+
