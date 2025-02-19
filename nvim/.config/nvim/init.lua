@@ -241,16 +241,17 @@ vim.keymap.set({ 'n', 'v' }, '<leader>cs', '<cmd>ChatGPTRun summarize<CR>', { de
 vim.keymap.set({ 'n', 'v' }, '<leader>cf', '<cmd>ChatGPTRun fix_bugs<CR>', { desc = 'Fix Bugs' })
 vim.keymap.set({ 'n', 'v' }, '<leader>cx', '<cmd>ChatGPTRun explain_code<CR>', { desc = 'Explain Code' })
 vim.keymap.set({ 'n', 'v' }, '<leader>cr', '<cmd>ChatGPTRun roxygen_edit<CR>', { desc = 'Roxygen Edit' })
-vim.keymap.set({ 'n', 'v' }, '<leader>cl', '<cmd>ChatGPTRun code_readability_analysis<CR>', { desc = 'Code Readability Analysis' })
+vim.keymap.set({ 'n', 'v' }, '<leader>cl', '<cmd>ChatGPTRun code_readability_analysis<CR>',
+  { desc = 'Code Readability Analysis' })
 
 vim.keymap.set({ 'n', 'v' }, '<leader>cm', '<cmd>ChatGPTActAs<CR>', { desc = 'Act As' })
 
 vim.keymap.set({ 'n', 'v' }, '<leader>ld', '<cmd>LazyDocker<CR>', { desc = 'Lazy Docker' })
 
-vim.o.tabstop = 2 -- A TAB character looks like 2 spaces
+vim.o.tabstop = 2      -- A TAB character looks like 2 spaces
 vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
-vim.o.softtabstop = 2 -- Number of spaces inserted instead of a TAB character
-vim.o.shiftwidth = 2 -- Number of spaces inserted when indenting
+vim.o.softtabstop = 2  -- Number of spaces inserted instead of a TAB character
+vim.o.shiftwidth = 2   -- Number of spaces inserted when indenting
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
@@ -381,7 +382,7 @@ require('lazy').setup({
   -- after the plugin has been loaded:
   --  config = function() ... end
 
-  { -- Useful plugin to show you pending keybinds.
+  {                     -- Useful plugin to show you pending keybinds.
     'folke/which-key.nvim',
     event = 'VimEnter', -- Sets the loading event to 'VimEnter'
     config = function() -- This is the function that runs, AFTER loading
@@ -434,7 +435,7 @@ require('lazy').setup({
       { 'nvim-telescope/telescope-ui-select.nvim' },
 
       -- Useful for getting pretty icons, but requires a Nerd Font.
-      { 'nvim-tree/nvim-web-devicons', enabled = vim.g.have_nerd_font },
+      { 'nvim-tree/nvim-web-devicons',            enabled = vim.g.have_nerd_font },
     },
     config = function()
       -- Telescope is a fuzzy finder that comes with a lot of different things that
@@ -551,7 +552,7 @@ require('lazy').setup({
       },
     },
   },
-  { 'Bilal2453/luvit-meta', lazy = true },
+  { 'Bilal2453/luvit-meta',     lazy = true },
   {
     -- Main LSP Configuration
     'neovim/nvim-lspconfig',
@@ -563,7 +564,7 @@ require('lazy').setup({
     },
     dependencies = {
       -- Automatically install LSPs and related tools to stdpath for Neovim
-      { 'williamboman/mason.nvim', config = true }, -- NOTE: Must be loaded before dependants
+      { 'williamboman/mason.nvim',           config = true }, -- NOTE: Must be loaded before dependants
       { 'williamboman/mason-lspconfig.nvim', opts = {} },
       'WhoIsSethDaniel/mason-tool-installer.nvim',
 
@@ -771,6 +772,36 @@ require('lazy').setup({
     end,
   },
 
+  -- { -- Autoformat
+  --   'stevearc/conform.nvim',
+  --   event = { 'BufWritePre' },
+  --   cmd = { 'ConformInfo' },
+  --   keys = {
+  --     {
+  --       '<leader>f',
+  --       function()
+  --         require('conform').format { async = true, lsp_fallback = true }
+  --       end,
+  --       mode = '',
+  --       desc = '[F]ormat buffer',
+  --     },
+  --   },
+  --   opts = {
+  --     -- notify_on_error = false,
+  --     format_on_save = function(bufnr)
+  --       -- Disable "format_on_save lsp_fallback" for languages that don't
+  --       -- have a well standardized coding style. You can add additional
+  --       -- languages here or re-enable it for the disabled ones.
+  --       local disable_filetypes = { c = true, cpp = true }
+  --       return {
+  --         timeout_ms = 500,
+  --         lsp_fallback = not disable_filetypes[vim.bo[bufnr].filetype],
+  --       }
+  --     end,
+  --     formatters_by_ft = {
+  --     },
+  --   },
+  -- },
   { -- Autoformat
     'stevearc/conform.nvim',
     event = { 'BufWritePre' },
@@ -779,25 +810,37 @@ require('lazy').setup({
       {
         '<leader>f',
         function()
-          require('conform').format { async = true, lsp_fallback = true }
+          require('conform').format { async = true, lsp_format = 'fallback' }
         end,
         mode = '',
         desc = '[F]ormat buffer',
       },
     },
     opts = {
-      -- notify_on_error = false,
+      notify_on_error = false,
       format_on_save = function(bufnr)
         -- Disable "format_on_save lsp_fallback" for languages that don't
         -- have a well standardized coding style. You can add additional
         -- languages here or re-enable it for the disabled ones.
         local disable_filetypes = { c = true, cpp = true }
+        local lsp_format_opt
+        if disable_filetypes[vim.bo[bufnr].filetype] then
+          lsp_format_opt = 'never'
+        else
+          lsp_format_opt = 'fallback'
+        end
         return {
           timeout_ms = 500,
-          lsp_fallback = not disable_filetypes[vim.bo[bufnr].filetype],
+          lsp_format = lsp_format_opt,
         }
       end,
       formatters_by_ft = {
+        lua = { 'stylua' },
+        -- Conform can also run multiple formatters sequentially
+        -- python = { "isort", "black" },
+        --
+        -- You can use 'stop_after_first' to run the first available formatter from the list
+        -- javascript = { "prettierd", "prettier", stop_after_first = true },
       },
     },
   },
@@ -1183,7 +1226,7 @@ require('cmp').config.formatting = {
 
 require('lazy').setup {
   spec = {
-    { 'LazyVim/LazyVim', import = 'lazyvim.plugins' },
+    { 'LazyVim/LazyVim',                         import = 'lazyvim.plugins' },
     { import = 'lazyvim.plugins.extras.dap.core' },
     { import = 'plugins' },
   },
@@ -1197,7 +1240,8 @@ require('lazy').setup {
 
     for name, sign in pairs(LazyVim.config.icons.dap) do
       sign = type(sign) == 'table' and sign or { sign }
-      vim.fn.sign_define('Dap' .. name, { text = sign[1], texthl = sign[2] or 'DiagnosticInfo', linehl = sign[3], numhl = sign[3] })
+      vim.fn.sign_define('Dap' .. name,
+        { text = sign[1], texthl = sign[2] or 'DiagnosticInfo', linehl = sign[3], numhl = sign[3] })
     end
 
     -- setup dap config by VsCode launch.json file
@@ -1221,7 +1265,8 @@ vim.api.nvim_set_keymap('n', '<S-F10>', [[:lua require"dap".step_into()<CR>]], {
 vim.api.nvim_set_keymap('n', '<F12>', [[:lua require"dap.ui.widgets".hover()<CR>]], { noremap = true })
 vim.api.nvim_set_keymap('n', '<F5>', [[:lua require"osv".launch({port = 8086})<CR>]], { noremap = true })
 
-vim.api.nvim_set_keymap('n', '<leader>twr', "<cmd>lua require('neotest').run.run({ vitestCommand = 'vitest --watch' })<cr>", { desc = 'Run Watch' })
+vim.api.nvim_set_keymap('n', '<leader>twr',
+  "<cmd>lua require('neotest').run.run({ vitestCommand = 'vitest --watch' })<cr>", { desc = 'Run Watch' })
 
 vim.api.nvim_set_keymap(
   'n',
@@ -1231,7 +1276,8 @@ vim.api.nvim_set_keymap(
 )
 
 vim.opt.swapfile = false
-vim.api.nvim_set_keymap('n', '<leader>tjw', "<cmd>lua require('neotest').run.run({ jestCommand = 'jest --watch ' })<cr>", { desc = 'run jest watch' })
+vim.api.nvim_set_keymap('n', '<leader>tjw', "<cmd>lua require('neotest').run.run({ jestCommand = 'jest --watch ' })<cr>",
+  { desc = 'run jest watch' })
 
 vim.api.nvim_create_user_command('PeekOpen', require('peek').open, {})
 vim.api.nvim_create_user_command('PeekClose', require('peek').close, {})
@@ -1252,9 +1298,9 @@ end
 local line_with_checkbox = function(line)
   -- return not line_contains_a_checked_checkbox(line) and not line_contains_an_unchecked_checkbox(line)
   return line:find('^%s*- ' .. checked_checkbox)
-    or line:find('^%s*- ' .. unchecked_checkbox)
-    or line:find('^%s*%d%. ' .. checked_checkbox)
-    or line:find('^%s*%d%. ' .. unchecked_checkbox)
+      or line:find('^%s*- ' .. unchecked_checkbox)
+      or line:find('^%s*%d%. ' .. checked_checkbox)
+      or line:find('^%s*%d%. ' .. unchecked_checkbox)
 end
 
 local checkbox = {

@@ -19,3 +19,7 @@ shell-integration-features=no-title
 macos-titlebar-proxy-icon=hidden
 
 keybind = global:cmd+grave_accent=toggle_quick_terminal
+keybind = ctrl+shift+up=scroll_page_up
+keybind = ctrl+shift+down=scroll_page_down
+
+
