@@ -21,7 +21,7 @@ return {
       ['<C-space>'] = { 'show', 'show_documentation', 'hide_documentation' },
       ['<C-e>'] = { 'hide', 'fallback' },
 
-      ['<Tab>'] = {
+      ['<C-y>'] = {
         function(cmp)
           if cmp.snippet_active() then
             return cmp.accept()
@@ -30,7 +30,7 @@ return {
           end
         end,
         'snippet_forward',
-        'fallback'
+        'fallback',
       },
       ['<S-Tab>'] = { 'snippet_backward', 'fallback' },
 
