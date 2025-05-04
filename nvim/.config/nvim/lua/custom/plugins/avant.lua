@@ -2,17 +2,33 @@ return {
   'yetone/avante.nvim',
   event = 'VeryLazy',
   lazy = false,
-  version = false, -- Set this to "*" to always pull the latest release version, or set it to false to update to the latest code changes.
+  version = '*', -- Set this to "*" to always pull the latest release version, or set it to false to update to the latest code changes.
   opts = {
     -- add any opts here
     -- for example
-    provider = 'openai',
+    provider = 'claude',
+    cursor_applying_provider = 'openai',
+    behaviour = {
+      enable_cursor_planning_mode = true,
+    },
+    claude = {
+      endpoint = 'https://api.anthropic.com',
+      model = 'claude-3-7-sonnet-20250219', -- your desired model (or use claude-1, etc.)
+      timeout = 30000, -- timeout in milliseconds
+      temperature = 0, -- adjust if needed
+      max_tokens = 5096,
+      disable_tools = false,
+    },
     openai = {
       endpoint = 'https://api.openai.com/v1',
       model = 'gpt-4o', -- your desired model (or use gpt-4o, etc.)
       timeout = 30000, -- timeout in milliseconds
       temperature = 0, -- adjust if needed
       max_tokens = 4096,
+    },
+    web_search_engine = {
+      provider = 'tavily',
+      proxy = 'nil',
     },
   },
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
