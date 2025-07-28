@@ -171,6 +171,26 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 vim.keymap.set('n', '<C-g>', '<cmd>silent !tmux neww tmux-sessionizer<CR>')
 
+-- Example: Create new tmux window with htop
+vim.keymap.set('n', '<leader>th', '<cmd>silent !tmux neww htop<CR>', { desc = 'Open htop in new tmux window' })
+
+-- Example: Create new tmux window with lazygit
+vim.keymap.set('n', '<leader>tg', '<cmd>silent !tmux neww lazygit<CR>', { desc = 'Open lazygit in new tmux window' })
+
+-- Example: Create new tmux window with a specific directory
+vim.keymap.set('n', '<leader>tp', '<cmd>silent !tmux neww -c ~/projects<CR>', { desc = 'New tmux window in projects dir' })
+
+-- Open Claude in new tmux window with a prompt for message
+vim.keymap.set('n', '<leader>tc', function()
+  local message = vim.fn.input('Claude message: ')
+  if message ~= '' then
+    -- Escape single quotes in the message
+    message = message:gsub("'", "'\\''")
+    -- Use echo to pipe the message to claude
+    vim.cmd("silent !tmux neww -d 'bash -c \"echo \\\"" .. message .. "\\\" | claude; exec bash\"'")
+  end
+end, { desc = 'Open Claude with message in new tmux window' })
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 -- lua MiniFiles.open()
