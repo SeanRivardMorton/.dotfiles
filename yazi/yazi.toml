@@ -1,8 +1,0 @@
-[opener]
-play = [
-]
-edit = [
-	{ run = 'nvim "$@"', block = true, desc = "nvim", for = "unix" },
-]
-open = [
-]
