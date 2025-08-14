@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__customer-care-mcp-server__get_account",
+      "mcp__customer-care-mcp-server__get_customer",
+      "mcp__customer-care-mcp-server__get_card",
+      "Bash(mkdir:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(mv:*)",
+      "Bash(timeout 5 npm --prefix admin-dashboard run dev)",
+      "Bash(chmod:*)",
+      "Bash(pkill:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(ls:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(rm:*)",
+      "Bash(/Users/seanrivard-morton/.nvm/versions/node/v20.18.3/bin/npm run build)",
+      "Bash(npx next:*)",
+      "Bash(admin-dashboard/build.sh)",
+      "Bash(cat:*)",
+      "Bash(/opt/homebrew/bin/bash -c \"cd admin-dashboard && npm run build\")",
+      "Bash(/opt/homebrew/bin/bash -c \"cd admin-dashboard && rm -rf node_modules pnpm-lock.yaml && npm install\")",
+      "Bash(export CWD=/Users/seanrivard-morton/.dotfiles/nvim/customer-care-mcp-server/admin-dashboard)"
+    ],
+    "deny": []
+  }
+}
