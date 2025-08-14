@@ -467,17 +467,34 @@ require('lazy').setup({
             'node_modules',
             '.git',
           },
+          vimgrep_arguments = {
+            'rg',
+            '--color=never',
+            '--no-heading',
+            '--with-filename',
+            '--line-number',
+            '--column',
+            '--smart-case',
+            '--hidden',
+            '--glob',
+            '!.git/*',
+          },
         },
         pickers = {
           find_files = {
             hidden = true,
+            find_command = { 'rg', '--files', '--hidden', '--glob', '!.git/*' },
           },
-        },
-        grep_string = {
-          additonal_args = { '--hidden' },
-        },
-        live_grep = {
-          additional_args = { '--hidden' },
+          grep_string = {
+            additional_args = function()
+              return { '--hidden' }
+            end,
+          },
+          live_grep = {
+            additional_args = function()
+              return { '--hidden' }
+            end,
+          },
         },
         extensions = {
           ['ui-select'] = {
@@ -1382,6 +1399,9 @@ end
 vim.keymap.set('n', '<leader>q', function()
   toggle_telescope(harpoon:list())
 end, { desc = 'Open harpoon window' })
+
+-- Load AWS CLI integration
+require('config.aws-cli')
 
 return M
 

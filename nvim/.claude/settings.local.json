@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(lua:*)",
+      "WebFetch(domain:community.atlassian.com)",
+      "Bash(claude-code config list)",
+      "Bash(claude config list)",
+      "Bash(claude config get-mcp-settings:*)",
+      "Bash(claude mcp:*)",
+      "mcp__AtlassianRemoteMCPServer__getAccessibleAtlassianResources",
+      "mcp__AtlassianRemoteMCPServer__getConfluenceSpaces",
+      "mcp__AtlassianRemoteMCPServer__searchJiraIssuesUsingJql",
+      "mcp__AtlassianRemoteMCPServer__getTransitionsForJiraIssue",
+      "Bash(npm run build:*)",
+      "Bash(npm --prefix customer-care-mcp-server run build)",
+      "Bash(ls:*)",
+      "mcp__customer-care-mcp-server__get_customer",
+      "Bash(grep:*)",
+      "mcp__customer-care-mcp-server__get_account",
+      "mcp__customer-care-mcp-server__get_transactions",
+      "Bash(npm:*)",
+      "Bash(open:*)",
+      "mcp__AtlassianRemoteMCPServer__createJiraIssue"
+    ],
+    "deny": []
+  }
+}
