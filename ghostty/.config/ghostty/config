@@ -1,4 +1,4 @@
-theme="tokyonight_night"
+theme=Tokyonight Night
 
 # Comments start with a `#` and are only valid on their own line.
 # Blank lines are ignored!
@@ -12,7 +12,7 @@ font-size=16
 font-feature=-liga
 font-thicken=true
 
-background-opacity=0.6
+background-opacity=0.8
 background-blur=40
 title="VS Code"
 shell-integration-features=no-title

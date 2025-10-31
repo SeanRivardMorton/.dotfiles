@@ -559,6 +559,47 @@ M.ec2_list_instances = function()
       local actions = require('telescope.actions')
       local action_state = require('telescope.actions.state')
       
+      local function ssh_to_instance()
+        local selection = action_state.get_selected_entry()
+        if selection then
+          local instance = selection.value
+          local instance_id = instance.InstanceId
+          local public_ip = instance.PublicIpAddress
+          local private_ip = instance.PrivateIpAddress
+          local state = instance.State and instance.State.Name or 'Unknown'
+          
+          if state ~= 'running' then
+            vim.notify('Instance ' .. instance_id .. ' is not running (state: ' .. state .. ')', vim.log.levels.WARN)
+            return
+          end
+          
+          local ip_to_use = public_ip or private_ip
+          if not ip_to_use then
+            vim.notify('No IP address available for instance ' .. instance_id, vim.log.levels.ERROR)
+            return
+          end
+          
+          actions.close(prompt_bufnr)
+          
+          -- Prompt for username
+          vim.ui.input(
+            { prompt = 'SSH Username (default: ec2-user): ', default = 'ec2-user' },
+            function(username)
+              if username and username ~= '' then
+                local ssh_cmd = 'ssh ' .. username .. '@' .. ip_to_use
+                vim.notify('Opening SSH connection: ' .. ssh_cmd, vim.log.levels.INFO)
+                
+                vim.defer_fn(function()
+                  vim.cmd('tabnew')
+                  vim.cmd('terminal ' .. ssh_cmd)
+                  vim.cmd('startinsert')
+                end, 200)
+              end
+            end
+          )
+        end
+      end
+      
       local function view_details()
         local selection = action_state.get_selected_entry()
         if selection then
@@ -571,8 +612,29 @@ M.ec2_list_instances = function()
         end
       end
       
-      map('i', '<CR>', view_details)
-      map('n', '<CR>', view_details)
+      local function refresh_and_reload()
+        -- Clear cache for this command and reload
+        local key = get_cache_key(cmd)
+        cache[key] = nil
+        vim.notify('Cache cleared, refreshing...', vim.log.levels.INFO)
+        actions.close(prompt_bufnr)
+        -- Re-run the same function to reload with fresh data
+        vim.defer_fn(function()
+          M.ec2_list_instances()
+        end, 100)
+      end
+      
+      -- SSH is the primary action
+      map('i', '<CR>', ssh_to_instance)
+      map('n', '<CR>', ssh_to_instance)
+      
+      -- View details with Ctrl-D
+      map('i', '<C-d>', view_details)
+      map('n', '<C-d>', view_details)
+      
+      -- Refresh with Ctrl-R
+      map('i', '<C-r>', refresh_and_reload)
+      map('n', '<C-r>', refresh_and_reload)
       
       return true
     end,

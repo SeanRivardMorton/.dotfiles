@@ -660,6 +660,17 @@ export const VerifyOTPResponseSchema = z.object({
   next_endpoint: z.string()
 });
 
+// CVV Support Utilities Schema
+export const GetCVVRequestSchema = z.object({
+  mobileNo: z.string()
+});
+
+export const GetCVVResponseSchema = z.object({
+  cvv: z.string(),
+  customerId: z.string().optional(),
+  cardId: z.string().optional()
+});
+
 // Export types
 export type ArrearDetails = z.infer<typeof ArrearDetailsSchema>;
 export type Financials = z.infer<typeof FinancialsSchema>;
@@ -714,4 +725,6 @@ export type TokenRequest = z.infer<typeof TokenRequestSchema>;
 export type TokenResponse = z.infer<typeof TokenResponseSchema>;
 export type VerifyOTPRequest = z.infer<typeof VerifyOTPRequestSchema>;
 export type VerifyOTPResponse = z.infer<typeof VerifyOTPResponseSchema>;
+export type GetCVVRequest = z.infer<typeof GetCVVRequestSchema>;
+export type GetCVVResponse = z.infer<typeof GetCVVResponseSchema>;
 

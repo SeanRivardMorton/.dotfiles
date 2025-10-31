@@ -30,7 +30,7 @@ local function setup_aws_keymaps()
   
   -- EC2
   vim.keymap.set('n', '<leader>awel', aws.ec2_list_instances, 
-    { desc = '[A]WS [E]C2 [L]ist instances' })
+    { desc = '[A]WS [E]C2 [L]ist instances (Enter=SSH, Ctrl-D=details, Ctrl-R=refresh)' })
   
   -- Utility
   vim.keymap.set('n', '<leader>awx', aws.clear_cache, 

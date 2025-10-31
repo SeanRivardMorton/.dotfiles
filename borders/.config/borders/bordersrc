@@ -1,8 +1,8 @@
 #!/bin/bash
 
 options=(
-	style=round
-	width=4.0
+	style=square
+	width=1.0
 	hidpi=off
 	inactive_color=0xff7aa2f7
 	active_color=0xffff9e64

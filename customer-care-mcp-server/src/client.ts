@@ -39,6 +39,8 @@ import {
   TokenResponse,
   VerifyOTPRequest,
   VerifyOTPResponse,
+  GetCVVRequest,
+  GetCVVResponse,
 } from "./types";
 
 export class CustomerCareClient {
@@ -49,6 +51,7 @@ export class CustomerCareClient {
   private transactionsClient: AxiosInstance;
   private onboardingClient: AxiosInstance;
   private databricksClient: AxiosInstance;
+  private supportUtilitiesClient: AxiosInstance;
 
   constructor(
     baseURL: string = "http://internal-api.staging.onmo.app/customer-care/v1",
@@ -57,11 +60,9 @@ export class CustomerCareClient {
     cardsBaseURL: string = "https://internal-api.staging.onmo.app/service/cards/v1",
     transactionsBaseURL: string = "https://internal-api.staging.onmo.app/service/transactions/v2",
     onboardingBaseURL: string = "https://internal-api.staging.onmo.app/service/onboarding/v1",
-    apiKey: string = "bf03ed2e65e71d5c0897f3ec995dbc1ee1eb085c4d4a6edcf6337ba63906fee7",
+    databricksBaseURL: string = "",
   ) {
     const authHeaders = {
-      "x-api-key":
-        "96619bb73e4907e8d7849fef57601816f4e9c19e4ad32cad1ce420e1251edc95",
       "Content-Type": "application/json",
       Accept: "application/json",
     };
@@ -110,11 +111,20 @@ export class CustomerCareClient {
 
     // Databricks API client
     this.databricksClient = axios.create({
-      baseURL: process.env.DATABRICKS_BASE_URL || "",
+      baseURL: databricksBaseURL,
       timeout: 60000,
       headers: {
-        Authorization: `Bearer ${process.env.DATABRICKS_TOKEN || ""}`,
         "Content-Type": "application/json",
+      },
+    });
+
+    // Support Utilities API client
+    this.supportUtilitiesClient = axios.create({
+      baseURL: "https://api.staging.onmo.app",
+      timeout: 30000,
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
       },
     });
   }
@@ -129,6 +139,7 @@ export class CustomerCareClient {
     this.cardsClient.defaults.headers.common["x-api-key"] = apiKey;
     this.transactionsClient.defaults.headers.common["x-api-key"] = apiKey;
     this.onboardingClient.defaults.headers.common["x-api-key"] = apiKey;
+    this.supportUtilitiesClient.defaults.headers.common["x-api-key"] = apiKey;
   }
 
   /**
@@ -638,5 +649,16 @@ export class CustomerCareClient {
       // This is a placeholder implementation
       throw new Error('Service principal authentication not yet implemented');
     }
+  }
+
+  /**
+   * Get CVV for a mobile number (for testing newly created accounts)
+   */
+  async getCVV(mobileNo: string): Promise<GetCVVResponse> {
+    const response = await this.supportUtilitiesClient.post(
+      '/mse-support-utilities/next/QA/getcvv',
+      { mobileNo }
+    );
+    return response.data;
   }
 }

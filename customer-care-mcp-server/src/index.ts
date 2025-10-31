@@ -46,12 +46,8 @@ async function getApiKeyFromSecretsManager(): Promise<string> {
     // - apiKey (camelCase)
     // - api_key (snake_case)
     // - CUSTOMER_CARE_API_TOKEN (uppercase)
-    // const apiKey =
-    // secret.apiKey || secret.api_key || secret.CUSTOMER_CARE_API_TOKEN;
     const apiKey =
-      "96619bb73e4907e8d7849fef57601816f4e9c19e4ad32cad1ce420e1251edc95";
-
-    console.log(apiKey);
+      secret.apiKey || secret.api_key || secret.CUSTOMER_CARE_API_TOKEN;
 
     if (!apiKey) {
       throw new Error("API key not found in secret");
@@ -338,6 +334,10 @@ const TokenSchema = z.object({
 const VerifyOTPSchema = z.object({
   transaction_id: z.string().describe("Transaction ID"),
   verify_code: z.number().describe("Verification code"),
+});
+
+const GetCVVSchema = z.object({
+  mobileNo: z.string().describe("Mobile number (e.g., +447776666346)"),
 });
 
 // Databricks tool schemas
@@ -1113,6 +1113,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         },
       },
       {
+        name: "get_cvv",
+        description: "Get CVV for a mobile number (for testing newly created accounts in the mobile app)",
+        inputSchema: {
+          type: "object",
+          properties: {
+            mobileNo: {
+              type: "string",
+              description: "Mobile number (e.g., +447776666346)",
+            },
+          },
+          required: ["mobileNo"],
+        },
+      },
+      {
         name: "databricks_execute_query",
         description: "Execute a SQL query on Databricks SQL warehouse",
         inputSchema: {
@@ -1698,6 +1712,19 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       case "verify_otp": {
         const { transaction_id, verify_code } = VerifyOTPSchema.parse(args);
         const result = await client.verifyOTP(transaction_id, { verify_code });
+        return {
+          content: [
+            {
+              type: "text",
+              text: JSON.stringify(result, null, 2),
+            },
+          ],
+        };
+      }
+
+      case "get_cvv": {
+        const { mobileNo } = GetCVVSchema.parse(args);
+        const result = await client.getCVV(mobileNo);
         return {
           content: [
             {
